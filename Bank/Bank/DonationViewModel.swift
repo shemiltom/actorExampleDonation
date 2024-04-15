@@ -7,21 +7,15 @@
 
 import Foundation
 
-actor BankAccount {
-    private(set) var balance = 0
-    
-    func deposit() -> Int {
-        balance = balance + 100
-        return balance
-    }
-}
-
+/// ViewModel for the Donation
 @MainActor class DonationViewModel: ObservableObject {
+    /// To show the balance of the account
     @Published var balance: String = "0"
+    /// Instance of the bank account
     private var bankAccount = BankAccount()
     
+    /// Function to recevice deposit which iterate over 1000 times
     public func receiveDeposits() async {
-        bankAccount = BankAccount()
         balance = await bankAccount.balance.description
 
         for _ in 1...1000 {
@@ -36,6 +30,7 @@ actor BankAccount {
         }
     }
     
+    ///To deposit and display the amount in the bank account
     public func depositAndDisplay() async {
         let result = await bankAccount.deposit()
         DispatchQueue.main.async {

@@ -15,6 +15,7 @@
 		CA142A732BC83983000DCDF0 /* BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA142A722BC83983000DCDF0 /* BankUITests.swift */; };
 		CA142A752BC83983000DCDF0 /* BankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA142A742BC83983000DCDF0 /* BankUITestsLaunchTests.swift */; };
 		CA142A822BC839F3000DCDF0 /* DonationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA142A812BC839F3000DCDF0 /* DonationViewModel.swift */; };
+		CA5158FF2BCD0E7600B04ACB /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5158FE2BCD0E7600B04ACB /* BankAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		CA142A722BC83983000DCDF0 /* BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankUITests.swift; sourceTree = "<group>"; };
 		CA142A742BC83983000DCDF0 /* BankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CA142A812BC839F3000DCDF0 /* DonationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationViewModel.swift; sourceTree = "<group>"; };
+		CA5158FE2BCD0E7600B04ACB /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,10 @@
 			children = (
 				CA142A572BC83980000DCDF0 /* BankApp.swift */,
 				CA142A592BC83980000DCDF0 /* DonationView.swift */,
+				CA142A812BC839F3000DCDF0 /* DonationViewModel.swift */,
+				CA5158FE2BCD0E7600B04ACB /* BankAccount.swift */,
 				CA142A5B2BC83982000DCDF0 /* Assets.xcassets */,
 				CA142A5D2BC83982000DCDF0 /* Preview Content */,
-				CA142A812BC839F3000DCDF0 /* DonationViewModel.swift */,
 			);
 			path = Bank;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA142A5A2BC83980000DCDF0 /* DonationView.swift in Sources */,
+				CA5158FF2BCD0E7600B04ACB /* BankAccount.swift in Sources */,
 				CA142A582BC83980000DCDF0 /* BankApp.swift in Sources */,
 				CA142A822BC839F3000DCDF0 /* DonationViewModel.swift in Sources */,
 			);
