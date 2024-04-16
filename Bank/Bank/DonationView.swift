@@ -20,7 +20,7 @@ struct DonationView: View {
                 .font(.title)
                 .bold()
                 .padding()
-            //Button to add deposit
+            //Button to receive  deposit
             Button {
                 Task {
                     await viewModel.receiveDeposits()
